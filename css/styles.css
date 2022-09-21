@@ -1,0 +1,374 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+html{
+
+  scroll-behavior: smooth ;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+#title {
+  background-color: #0F3460;
+  color: #000000;
+
+
+
+
+}
+
+#framework{
+
+padding: 10% 7%;
+position: relative;
+background-color: white;
+z-index:1;
+
+
+
+
+}
+#footer{
+
+  background-color: #0F3460;
+  padding: 2% 3%
+}
+
+
+#Portfolio{
+
+background-color: #0F3460;
+
+padding: 5% 15%
+
+}
+h1 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h3{
+ font-family: "Montserrat",sans-serif;
+ font-weight: 700;
+ font-size: 1.15rem;
+
+}
+p{
+
+color: white;
+
+
+}
+
+.navbar-brand {
+  color: white;
+  font-family: "ubuntu";
+  font-size: 2.2rem;
+
+}
+
+.navbar {
+  padding-bottom: 15%
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0 ;
+}
+
+.title-image{
+
+  margin:5% 5%;
+  width:512px;
+  height: auto;
+  transform: rotate(-8deg);
+
+  position: absolute;
+
+  z-index: 0;
+
+
+
+
+
+}
+
+
+
+.icon-align{
+
+  margin: auto;
+  text-align: center;
+
+}
+
+
+.para{
+
+  margin-bottom: : 20%;
+  padding: 0 5%;
+}
+
+.icon:hover{
+
+color:#ff4c68;
+}
+
+.sc{
+
+font-family: "Montserrat",sans-serif;
+font-size: 1.5rem;
+color:#white;
+text-align: left;
+line-height: 1.5;
+
+}
+
+.HTML-img{
+
+  width:auto;
+  height: 100px;
+}
+
+.CSS-img{
+
+  width:auto;
+  height: 100px;
+}
+
+.bootstrap-img{
+
+  width:auto;
+  height: 100px;
+}
+
+.javascript-img{
+  width:auto;
+  height: 100px;
+}
+
+.par{
+
+  margin: 5% 0 15% 0;
+}
+
+.jquery-img{
+
+  width:auto;
+  height: 100px;
+
+}
+
+.Nodejs-img{
+
+  width:auto;
+  height: 100px;
+}
+
+.Mongodb-img{
+
+  width:auto;
+  height: 100px;
+}
+
+.sql-img{
+
+  width:auto;
+  height: 100px;
+}
+
+.par-sql{
+
+  margin: 8% 0 0 0 ;
+}
+
+.git-img{
+
+  width:auto;
+  height: 100px;
+
+}
+
+.java-img{
+
+  width:auto;
+  height: 100px;
+}
+
+.cpp-img{
+
+  width:auto;
+  height: 100px;
+}
+
+.python-img{
+
+  width:auto;
+  height: 100px;
+}
+
+
+.par-git{
+
+  margin: 7% 0 0 0;
+}
+
+.par-java{
+
+  margin : 10% 0 0 0;
+}
+
+
+
+.sc1{
+
+font-family: "Montserrat",sans-serif;
+font-size: 1.5rem;
+color:black;
+text-align: center;
+
+
+}
+
+.pros{
+text-decoration: underline;
+}
+
+.foot{
+
+  text-align: center;
+}
+
+.card1{
+
+
+
+  background-color: #0F3460;
+}
+
+.card{
+
+background-color: #0F3460;
+}
+
+.card-text1{
+
+  margin-bottom: 24.3%;
+}
+
+.dropcolor{
+
+background-color: #0F3460 ;
+}
+
+.form1{
+
+  margin:7% 15%;
+}
+
+
+
+.labe{
+ margin-bottom: 1%
+}
+
+.lo{
+
+ margin-bottom: 7%
+
+}
+
+.mcol1{
+margin-right: 0%;
+margin-bottom: 3%;
+}
+
+.mcol2{
+
+  margin-right: 0%;
+  margin-bottom: 3%;
+
+
+}
+
+.mcol3{
+
+  margin-left:0%;
+  margin-bottom:3%;
+
+
+}
+.Leave{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.row{
+  margin: 7% 3.5%;
+
+  border: 7% 7%
+}
+
+.title-row{
+
+
+padding: 0 0%;
+}
+
+
+
+.labem{
+
+  margin-bottom: 1%;
+}
+
+.btn-sub{
+
+margin: 2.5% 0;
+
+}
+
+.carousel-control-prev{
+
+  margin-right: 10%;
+  color: #FFD84D;
+}
+
+.carousel-control-next{
+
+
+  margin-left:  10%;
+  color: #FFD84D;
+}
+
+.carousel-control-prev-icon{
+
+  .carousel-control-prev-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffd5' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon{
+
+
+  color: #FFD523;
+
+
+}
+
+@media (max-width: 1028px) {
+
+
+}
+
+.card > h5 {
+  color: white ;
+}
+
+.card__title{
+
+  color: white ;
+}
