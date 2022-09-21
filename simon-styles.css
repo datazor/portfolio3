@@ -1,0 +1,175 @@
+body {
+  text-align: center;
+  background-color: #FFD523;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  margin:  5% ;
+  text-align: center;
+  color: #000000;
+}
+
+#game-title{
+
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5% ;
+  text-align: center;
+  color: #000000;
+}
+
+.container-fluid {
+  padding: 1% 1%;
+
+  margin-bottom: 0;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: 0;
+
+}
+.btn-green {
+
+
+
+margin-left: auto;
+
+  width: 200px ;
+  height: 200px ;
+
+}
+.btn-red{
+
+margin: 0  auto ;
+
+margin-right: auto ;
+
+width: 200px ;
+height: 200px ;
+
+
+}
+
+.bar-marg{
+
+margin-bottom: 2% ;
+
+
+}
+
+.btn{
+
+
+
+
+
+
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
+#simon-game{
+
+background-color: white: ;
+
+}
+
+#title{
+
+
+  padding : 1% auto ;
+}
+
+.btn-square-md-green {
+width: 200px !important;
+
+height: 200px !important;
+padding: 0px;
+
+margin: auto 0.5% 1% 28.5%;
+
+
+
+}
+
+.btn-square-md-red {
+width: 200px !important;
+height: 200px !important;
+padding: 0px;
+margin: auto auto 1% 0.5% ;
+
+
+
+}
+
+
+.btn-square-md-yellow {
+width: 200px !important;
+height: 200px !important;
+padding: 0px;
+margin: 1% 0.5% auto 28.5%;
+
+
+}
+
+.btn-square-md-blue {
+width: 200px !important;
+height: 200px !important;
+padding: 0px;
+margin: 1% auto auto 0.5%;
+
+
+
+}
+
+.sc{
+
+font-family: "Montserrat",sans-serif;
+font-size: 0.625rem;
+color:#000000;
+text-align: left;
+line-height: 2;
+
+}
+
+#footer{
+
+  background-color: #FFD523;
+  padding: 2% 3%
+}
+
+.simon-image{
+
+  margin:5% 5%;
+  width:512px;
+  height:auto;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon Game</title>
+  <link rel="stylesheet" href="simon-styles.css">
+
+
+
+  <script src="https://kit.fontawesome.com/9551e3a91b.js" crossorigin="anonymous"></script>
+
+  <!---bootstrap--->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+  <!--favicon--->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" x>
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bar-marg">
+        <a class="navbar-brand" href="">Lemrabott Abdelaziz</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Portfolio
+              </a>
+              <ul class="dropdown-menu dropcolor" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Interactive Path Finding</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">NFT Marketplace</a></li>
+
+                <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Personal Blog</a></li>
+
+            <hr class="dropdown-divider">
+
+            <li><a class="dropdown-item" href="#">The Simon Game</a></li>
+          </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="">Resume</a>
+
+          <li class="nav-item">
+            <a class="nav-link" href="">Contact</a>
+          </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Simon Game -->
+
+      <p id="game-title">The Simon Game</p>
+      <h1 id="level-title">Press A Key to Start</h1>
+      <div class="container">
+        <div class="row">
+
+          <button type="button" id="green" class="btn btn-success btn-square-md-green col-lg-6"></button>
+
+          <button type="button" id="red" class="btn btn-danger btn-square-md-red col-lg-6"></button>
+
+          <button type="button" id="yellow" class="btn btn-warning btn-square-md-yellow col-lg-6"></button>
+
+          <button type="button" id="blue" class="btn btn-primary btn-square-md-blue col-lg-6"></button>
+
+        </div>
+
+
+
+      </div>
+
+
+
+
+
+  </section>
+
+  
+  <section id='info'>
+
+    <div class="row title-row">
+      <div class="col-lg-6">
+        <p class="sc">Simon is a game of short-term memory skill invented by Ralph H. Baer and Howard J. Morrison, working for a toy design firm Marvin Glass and Associates, with software programming by Lenny Cope. The device creates a series of
+          tones and lights and requires a user to repeat the sequence. If the user succeeds, the series becomes progressively longer and more complex.</p>
+
+
+        <a href="https://en.wikipedia.org/wiki/Simon_(game)" class="btn btn-outline-dark btn-lg download-btn active" tabindex="-1" role="button" aria-disabled="true"><i class="fa-brands fa-wikipedia-w"></i> Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Simon_(game)" class="btn btn-outline-dark btn-lg download-btn active" tabindex="-1" role="button" aria-disabled="true"><i class="fa-solid fa-code"></i> Source Code</a>
+
+      </div>
+      <div class="col-lg-6">
+        <img class="simon-image" src="images/simon.png" alt="simon-game">
+      </div>
+
+
+    </div>
+
+
+  </section>
+
+  <section>
+
+    <footer id="footer">
+
+      <p class="foot">© Copyright 2022 Lemrabott Abdelaziz</p>
+
+    </footer>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>
+
+</body>
+
+</html>
